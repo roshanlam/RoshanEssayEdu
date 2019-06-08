@@ -1,5 +1,5 @@
 # RoshanEssayEdu
-To validate essays, the program uses a API to check for plagiarism (copyright). It also uses a modified version of GPT-2 to detect the likelihood that the text was real or fake. Then it outputs a validation score using these 2 scores. In order to grade the essay, it uses a neural network model trained on the automatic essay grading dataset on Kaggle found here https://www.kaggle.com/c/asap-aes/data .Take this code and go build a profitable startup with it.
+To validate essays, the program uses a API to check for plagiarism (copyright). It also uses a modified version of GPT-2 to detect the likelihood that the text was real or fake. Then it outputs a validation score using these 2 scores. In order to grade the essay, it uses a neural network model trained on the automatic essay grading dataset on Kaggle found here https://www.kaggle.com/c/asap-aes/data.
 
 This is an ongoing, open source project. Please contribute so this project can be finished faster. 
 # Quickstart
