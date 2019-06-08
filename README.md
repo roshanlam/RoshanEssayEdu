@@ -8,3 +8,14 @@ Quickstart
        pip install -r requirements.txt
        run server for gpt-2-small:
        python server.py
+
+server.py options
+           usage: server.py [-h] [--model MODEL] [--nodebug NODEBUG] [--address ADDRESS]
+                 [--port PORT] [--nocache NOCACHE] [--dir DIR] [--no_cors]
+
+optional arguments:
+               -h, --help         show this help message and exit
+               --model MODEL		 choose either 'gpt-2-small' (default) or 'BERT' or your own
+                --nodebug NODEBUG  server in non-debugging mode
+                  --port PORT	     port to launch UI and API (default:5001)
+                 --no_cors          launch API without CORS support (default: False)
