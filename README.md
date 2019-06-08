@@ -20,3 +20,6 @@ the source code for the front-end is in client/src.
 To modify, installing of node dependencies is necessary:
 
         cd client/src; npm install; cd ../..
+re-compilation of front-end:
+
+        > rm -rf client/dist;cd client/src/; npm run build; cd ../..
