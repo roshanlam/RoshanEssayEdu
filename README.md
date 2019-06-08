@@ -10,5 +10,13 @@ This is an ongoing, open source project. Please contribute so this project can b
        python server.py
 
 # Extend the backend
-The backend defines a number of api models which can be invoked by starting the server with the parameter 
-     
+The backend defines a number of api models which can be invoked by starting the server with the parameter   --ModelNAME.
+To add a custom model, you need to write your own api in backend/api.py and add the decorator @register_api(name=NAME).
+
+# Extend the frontend 
+
+the source code for the front-end is in client/src.
+
+To modify, installing of node dependencies is necessary:
+
+        cd client/src; npm install; cd ../..
