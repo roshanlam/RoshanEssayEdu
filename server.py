@@ -5,7 +5,6 @@ import os
 import yaml
 from flask import send_from_directory, redirect
 from flask_cors import CORS
-
 # from backend.Project import Project # TODO Something !!
 from backend import AVAILABLE_MODELS
 
