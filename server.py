@@ -8,6 +8,7 @@ from flask_cors import CORS
 # from backend.Project import Project # TODO Something !!
 from backend import AVAILABLE_MODELS
 
+
 __author__ = 'Roshan Lamichhane'
 
 CONFIG_FILE_NAME = 'lmf.yml'
