@@ -9,6 +9,12 @@ To validate essays, the program uses a API to check for plagiarism (copyright). 
 
 - Copyleaks API
 
+- Flask
+
+- GPT-2 model
+
+- D3.js
+
 
 This is an ongoing, open source project. Please contribute so this project can be finished faster. 
 # Quickstart
