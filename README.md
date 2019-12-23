@@ -28,7 +28,7 @@ To add a custom model, you need to write your own api in backend/api.py and add 
 
 the source code for the front-end is in client/src.
 
-To modify, installing of node dependencies is necessary:
+To modify, installing node dependencies is necessary:
 
         cd client/src; npm install; cd ../..
 re-compilation of front-end:
