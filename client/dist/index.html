@@ -42,16 +42,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Roshan</title>
+    <title>Roshan Essay</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="#" />
     <link rel="stylesheet" type="text/css" href="start.css">
     <!--<link rel="stylesheet" type="text/css" href="vendor.css">-->
-    <!--<meta name="twitter:site" content="@nytimes">-->
-    <!--<meta name="twitter:creator" content="@SarahMaslinNir">-->
-    <meta name="description" content="This is a tool for forensic inspection of the visual footprint 
-          of a language model on input text to detect whether a text could be real or fake.">
-
 </head>
 
 <body>
@@ -149,7 +144,7 @@ var x = document.getElementById("results").innerText;
 
   // Open Checkout with further options:
   handler.open({
-    name: 'RoshanEssayEdu',
+    name: 'RoshanEssay',
     description: 'Monthly Subscription',
     amount: 200
   });
@@ -191,11 +186,11 @@ test.onclick = function() {
     let net;
 async function app() {
   console.log('Loading mobilenet..');
-// net = await tf.loadLayersModel('model.json');
-  // // Load the model.
+    // net = await tf.loadLayersModel('model.json');
+   //  Load the model.
   // net = await mobilenet.load();
-  // console.log('Sucessfully loaded model');
-  // Make a prediction through the model on our image.
+ // console.log('Sucessfully loaded model');
+// Make a prediction through the model on our image.
   const imgEl = document.getElementById('img');
   const result = await net.classify(imgEl);
   console.log(result);
@@ -347,12 +342,8 @@ app();
     <!--</div>-->
 
     <!--</div>-->
-
-
     <script src="vendor.js"></script>
     <script src="start.js"></script>
 
 </body>
-
-
 </html>
