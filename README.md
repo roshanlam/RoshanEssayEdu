@@ -32,7 +32,7 @@ To add a custom model, you need to write your own api in backend/api.py and add 
 
 # Extend the frontend 
 
-the source code for the front-end is in client/src.
+the source code for the front-end is in `client/src`.
 
 To modify, installing node dependencies is necessary:
 
