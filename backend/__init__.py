@@ -1,10 +1,8 @@
 from .class_register import AVAILABLE_MODELS
-
 '''
 Import all classes in this directory so that classes with
 @register_api are registered.
 '''
-
 from os.path import basename, dirname, join
 from glob import glob
 pwd = dirname(__file__)
